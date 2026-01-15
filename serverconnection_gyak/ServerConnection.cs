@@ -98,7 +98,7 @@ namespace serverconnection_gyak
             string url = baseUrl + "/artworks";
             if(string.IsNullOrEmpty(Token))
             {
-                throw new InvalidOperationException("User is not logged in");
+                throw new InvalidOperationException("User is  not logged in");
             }
             try
             {
